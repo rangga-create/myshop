@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+h2{
+    font-size: 18px;
+    color:  #2c3e50;
+}
+p{
+    font-size: 14px;
+    color: #7f8c8d;
+}
+
+.gambar img {
+    max-width: 70%;
+    height: auto; 
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2); 
+   
+}
+.produk {
+    width: 100%;
+    height: 200px;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-image: linear-gradient(to right, rgb(64, 189, 180), rgb(49, 181, 183));
+}
+
+.produk h1 {
+    font-size: 50px;
+    color: white;
+    box-shadow: 0 5px 10px rgba(252, 252, 252, 0.1);
+}
+
+.produk p {
+    font-size: 20px;
+    color: white;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(64, 33, 84);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.produk span {
+    color: rgb(172, 19, 8);
+    font-weight: bold;
+}
+
+.icon {
+    border: 3px solid #0088ff;
+    border-radius: 40%;
+    background-color: white;
+    text-decoration: none;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    font-size: 15px;
+}
+
+.btn {
+    padding: 3px 5px;
+    background: rgb(52, 202, 97);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #1f242d;
+    letter-spacing: 1px;
+    text-decoration: none;
+    justify-content: space-between;
+}
+
+
+
+.container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 150px; 
+    
+}
+
+.text {
+    width: 230px;
+    
+    border: 5px solid #000000; 
+    border-radius: 20px; 
+    box-shadow: 19px 21px 53px rgba(255, 255, 255, 0.5); 
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    padding: 20px; 
+}
+
+nav ul {
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+    display: flex; 
+    gap: 10px; 
+}
+
+nav a {
+    text-decoration: none; 
+    color: #000; 
+}
+span{
+    color: rgb(172, 19, 8);
+    font-weight: bold;
+}
+
+nav li{
+   margin: 10% 10% 0% 2%;
+}
+.quotes {
+    border: 4px solid #000000;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 15px auto;
+    width: 300px; 
+    text-align: center; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.quotes p{
+    font-weight: bold;
+    color: white;
+}
+.quotes h2{
+    font-weight: bold;
+    color: black;
+
+}
+.gambar{
+    display: flex;
+    height: 150px; 
+    margin-inline: 30%;
+}
+.gambar-left, .gambar-right {
+    flex: 1 ; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    width: 45%; 
+    height: auto;
+    display: block;
+}
+.pemberitahuan {
+    flex: 1; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    text-align: center; 
+    flex-direction: column;
+}
+.pemberitahuan h2{
+    font-weight: bold;
+    color: white;
+}
+.pemberitahuan p{
+    margin-top: 5%;
+}
+.pemberitahuan a{
+    text-decoration: none; 
+    color: #3498db; 
+    font-weight: bold; 
+    padding: 10px 15px; 
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease; 
+}
+.pemberitahuan a:hover{
+    background-color: #3498db;
+    color: #ffffff;
+}
+.footer {
+    background-color:rgb(64, 189, 180) ; 
+    color: #ecf0f1; 
+    padding: 20px; 
+       text-align: center;
+       
+}
+
+.footerr {
+    display: flex;
+    flex-direction: column;
+        align-items: center;
+}
+.footerr p{
+    color: white;
+    font-weight: bold;
+}
+.logo {
+    display: flex; 
+        justify-content: center;
+    gap: 20px; 
+    margin-bottom: 10px;
+}
+.logo img {
+    width: 35px;
+}
+.footer-logo {
+    max-width: 100px; 
+    height: auto; 
+    grid-auto-flow: 20px;
+}
+
+.copy {
+    font-size: 14px; 
+}
+
+.bground{
+    background-image: url(realistic\ and\ visually\ appealing\ background\ for\ a\ good\ quality\ detergent\ soap.png);
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .produk h1 {
+        font-size: 2rem;
+    }
+
+    .produk p {
+        font-size: 1.2rem;
+    }
+
+    .text {
+        width: 90%;
+    }
+
+    .quotes {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .gambar {
+        flex-direction: column;
+    }
+
+    .gambar-left, .gambar-right {
+        flex: none;
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .produk h1 {
+        font-size: 1.5rem;
+    }
+
+    .produk p {
+        font-size: 1rem;
+    }
+
+    .text {
+        width: 100%;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    .navbar {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .logo {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-logo {
+        max-width: 80px;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer {
+        padding: 15px;
+    }
+
+    .copy {
+        font-size: 12px; 
+    }
+}
+

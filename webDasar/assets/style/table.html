@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      span {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <table border="1">
+      <thead>
+        <tr style="color: blue">
+          <td>no</td>
+          <td>Element</td>
+          <td>Tujuan belajar</td>
+          <td>Rincian</td>
+        </tr>
+      </thead>
+      <tr>
+        <td>1</td>
+        <td>html struktur dasar</td>
+        <td>memahami struktur dasar html</td>
+        <td>
+          mempelajari tag html dasar seperti
+          <span> !DOCTYPE, html,head,dan body</span> .mengerti bagaimana sebuah
+          halaman web dibangun dari struktur ini
+        </td>
+      </tr>
+
+      <tr>
+        <td>2</td>
+        <td>tag teks</td>
+        <td>mengatur dan menampilkan teks di web</td>
+        <td>
+          belajar tag untuk teks seperti<span> p , h1-h6 , strong , em ,</span>
+          dan cara mengatur paragraf serta heading
+        </td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>link dan gambar</td>
+        <td>menambahkan link dan gambar pada halaman</td>
+        <td>
+          menggunakan tag <span> a </span> untuk hyperlink dan
+          <span> img </span> untuk gambar .memahami atribut href dan src
+        </td>
+      </tr>
+    </table>
+
+    <table border="1" style="text-align: center">
+      <thead>
+        <tr>
+          <td>Header1</td>
+          <td>Header2</td>
+          <td>Header3</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td colspan="2">A</td>
+          <td rowspan="3">e</td>
+        </tr>
+        <tr>
+          <td rowspan="2">b</td>
+          <td>c</td>
+        </tr>
+        <tr>
+          <td>d</td>
+        </tr>
+      </tbody>
+    </table>
+    <br />
+
+    <form>
+      <fieldset>
+        <legend style="font-size: 40px">Formulir Pendaftaran Siswa</legend>
+        <table>
+          <tr>
+            <td>Nama calon siswa</td>
+            <td>:</td>
+            <td><input type="text" /></td>
+          </tr>
+          <tr>
+            <td>Tempat/Tanggal lahir</td>
+            <td>:</td>
+            <td><input type="text" /> <input type="date" /></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Agama</td>
+            <td>:</td>
+            <td>
+              <select>
+                <option>Islam</option>
+                <option>Kristen</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>Alamat</td>
+            <td>:</td>
+            <td>
+              <textarea
+                name="alamat"
+                id="alamat"
+                rows="10"
+                cols="60"
+              ></textarea>
+            </td>
+          </tr>
+          <tr>
+            <td>No Telp/Hp</td>
+            <td>:</td>
+            <td><input type="number" /></td>
+          </tr>
+          <tr>
+            <td>jenis kelamin</td>
+            <td>:</td>
+            <td>
+              <input type="radio" value="pria" />pria
+              <input type="radio" value="wanita" />Wanita
+            </td>
+          </tr>
+          <tr>
+            <td>Hobi</td>
+            <td>:</td>
+            <td>
+              <input type="checkbox" />membaca <input type="checkbox" />menulis
+              <input type="checkbox" />olahraga
+            </td>
+          </tr>
+
+          <tr>
+            <td>pas Foto</td>
+            <td>:</td>
+            <td><input type="file" /></td>
+          </tr>
+          <tr>
+            <td><button type="submit">SUBMIT</button></td>
+          </tr>
+        </table>
+      </fieldset>
+    </form>
+  </body>
+</html>
